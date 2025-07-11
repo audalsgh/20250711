@@ -1,6 +1,7 @@
 # 문수영 교수님의 드론 sw + Sciklit-learn 강의
 강의 자료는 교수님 깃허브 링크에서 다운가능.<br>
-https://github.com/sooyoungmoon/scikit_learn
+https://github.com/sooyoungmoon/scikit_learn<br>
+[scikit_learn_intro.pptx](https://github.com/user-attachments/files/21173883/scikit_learn_intro.pptx)
 
 ## 이론강의 (깃허브에 정리후 메일로 제출)
 1. 머신러닝 (ML) 
