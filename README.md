@@ -55,6 +55,10 @@ https://github.com/sooyoungmoon/scikit_learn<br>
   <img width="795" height="210" alt="image" src="https://github.com/user-attachments/assets/2703b8b5-0398-474d-bac7-e2ea7288d900" />
 - https://github.com/sooyoungmoon/scikit_learn/blob/main/notebooks/classification_hand_written_digits.ipynb
 
+- 예제2. 꽃 분류 문제<br>
+  <img width="1392" height="356" alt="image" src="https://github.com/user-attachments/assets/d039dab9-799e-4ac9-8143-537b54e1c3d2" />
+- https://github.com/sooyoungmoon/scikit_learn/blob/main/notebooks/classification_nearest_neighbors_iris.ipynb
+
 2. 회귀문제
 - (입력 데이터 -> 모델 -> 결과값) 관계로부터 결과를 예측함.
 - 맞다, 틀리다로 평가했던 분류문제와 달리 / 성능지표는 정답에 얼마나 근접한 값을 예측했는가의 오차값이 평가됨.
