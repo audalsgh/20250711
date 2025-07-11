@@ -1,4 +1,6 @@
 # 문수영 교수님의 드론 sw + Sciklit-learn 강의
+강의 자료는 교수님 깃허브 링크에서 다운가능.<br>
+https://github.com/sooyoungmoon/scikit_learn
 
 ## 이론강의 (깃허브에 정리후 메일로 제출)
 1. 머신러닝 (ML) 
@@ -14,4 +16,26 @@
 - 머신러닝 모델 ≠ 머신러닝 알고리즘
   > 알고리즘은 모델을 만들어내는 기법이지, 모델자체가 아니다.
 - 언더피팅과 오버피팅 : 모델이 지나치게 단순하여 패턴을 파악하지 못하거나, 반대로 지나치게 복잡하여 새로운 데이터에 대해 낮은 성능을 보이는 현상
-- 
+- 머신러닝의 장점 : 대규모 + 다차원 데이터 처리에 유리하고, 데이터가 쌓일수록 성능이 향상되며, 숨겨진 패턴을 찾아내기에 좋다.
+
+2. 사이킷 런 (Scikit-learn)
+  https://github.com/sooyoungmoon/scikit_learn/blob/main/notebooks/scikit_learn_quickstart.ipynb
+- 파이썬 기반의 머신러닝 오픈소스 라이브러리
+- 분류, 회귀, 클러스터링 등의 알고리즘을 간편하게 구현가능
+- numpy, Scipy, pandas 등의 파이썬 라이브러리와 연동되어 편리
+  
+3. Estimater : fitting과 라벨링을 맡음. 여러 종류가 있으며, clf.fit(x,y) 등의 clf. 명령어로 사용
+  (Scikit-learn) 홈페이지에서 자세한 설명이 나와있다.
+- Transformer와 pre-processors : 숫자를 문자로 변환하는 .transfer(), 중복제거 등의 전처리와, 숫자 데이터의 경우 평균이 0이고 표준편차가 1을 갖도록 데이터 정규화 담당.
+  (pre-processors는 Transformer의 일종)
+
+4. Data-pipeline
+- 데이터를 입력하면, 빠진 데이터를 추가하거나 정규분포로 변환하거나 등의 전처리 단계를 거쳐 추론까지 진행하는 Data flow를 지나, 최종 결과에 도착한다.
+- <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3608d82e-cd8f-4f73-9e1c-98e643af2e81" />
+
+5. Cross validation
+- 내가 고른 데이터가 유독 좋아서 결과가 잘 나온걸수도 있다.
+- 이를 방지하기위해 (Q. 모델이 처음 보는 데이터를 입력 받았을 때 얼마나 일관된 추론 성능을 보이는가?)를 검사함
+- <img width="537" height="771" alt="image" src="https://github.com/user-attachments/assets/2b186c11-f2b6-44c3-b733-c506786d37c9" />
+- 데이터 전체를 k개 묶음으로 나누고, k번째 묶음만을 테스트에 사용할때 나머지는 모델학습에 사용하면 된다.
+
