@@ -42,10 +42,12 @@ https://github.com/sooyoungmoon/scikit_learn
 
 ## 지도학습 이어서
 - KNN (K Nearest Neighbors) : 지도학습과 비지도학습 모두 사용가능한 기법이고, 거리위주 가중치를 선택하면 노란 영역에 있어도 초록색과 가장 근접하니 초록색으로 분류될수도 있다는 뜻.
-- 예측 정확도와 민감도 (Precision and Recall) : 성능지표로 쓰임.<br>예측 정확도 = 가짜로 예측한게 진짜일 확률을 "열에서만" 계산함.<br>민감도 = 가짜를 검출해내지 못한 확률을 "행에서만" 계산함.
+- 예측 정확도와 민감도 (Precision and Recall) : 성능지표로 쓰임.<br>예측 정확도 = 가짜로 예측한게 진짜일 확률을 "열에서만" 계산함.<br>민감도 = 가짜를 검출해내지 못한 확률을 "행에서만" 계산함.<br>
   <img width="1527" height="795" alt="image" src="https://github.com/user-attachments/assets/b97f145b-e7cf-42c8-a63d-7c79dd1d16ba" />
 - 둘다 높으면 베스트지만 힘들기에, F1-Score를 보며 밸런스를 조절해야한다.
+  
   <img width="1357" height="468" alt="image" src="https://github.com/user-attachments/assets/11b0009a-00db-48b1-a4fd-113668f090d6" />
-- 예제1. 손글씨로 쓴 숫자 식별 문제
+  
+- 예제1. 손글씨로 쓴 숫자 식별 문제<br>
   <img width="795" height="210" alt="image" src="https://github.com/user-attachments/assets/2703b8b5-0398-474d-bac7-e2ea7288d900" />
-- 
+- https://github.com/sooyoungmoon/scikit_learn/blob/main/notebooks/classification_hand_written_digits.ipynb
