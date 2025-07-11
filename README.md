@@ -40,7 +40,7 @@ https://github.com/sooyoungmoon/scikit_learn
   <img width="537" height="771" alt="image" src="https://github.com/user-attachments/assets/2b186c11-f2b6-44c3-b733-c506786d37c9" />
 - 데이터 전체를 k개 묶음으로 나누고, k번째 묶음만을 테스트에 사용할때 나머지는 모델학습에 사용하면 된다.
 
-### 지도학습 이어서
+## 지도학습 이어서
 - KNN (K Nearest Neighbors) : 지도학습과 비지도학습 모두 사용가능한 기법이고, 거리위주 가중치를 선택하면 노란 영역에 있어도 초록색과 가장 근접하니 초록색으로 분류될수도 있다는 뜻.
 - 예측 정확도와 민감도 (Precision and Recall) : 성능지표로 쓰임.<br>예측 정확도 = 가짜로 예측한게 진짜일 확률을 "열에서만" 계산함.<br>민감도 = 가짜를 검출해내지 못한 확률을 "행에서만" 계산함.
   <img width="1527" height="795" alt="image" src="https://github.com/user-attachments/assets/b97f145b-e7cf-42c8-a63d-7c79dd1d16ba" />
