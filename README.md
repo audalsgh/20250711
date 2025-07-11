@@ -31,11 +31,11 @@ https://github.com/sooyoungmoon/scikit_learn
 
 4. Data-pipeline
 - 데이터를 입력하면, 빠진 데이터를 추가하거나 정규분포로 변환하거나 등의 전처리 단계를 거쳐 추론까지 진행하는 Data flow를 지나, 최종 결과에 도착한다.
-- <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3608d82e-cd8f-4f73-9e1c-98e643af2e81" />
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3608d82e-cd8f-4f73-9e1c-98e643af2e81" />
 
 5. Cross validation
 - 내가 고른 데이터가 유독 좋아서 결과가 잘 나온걸수도 있다.
 - 이를 방지하기위해 (Q. 모델이 처음 보는 데이터를 입력 받았을 때 얼마나 일관된 추론 성능을 보이는가?)를 검사함
-- <img width="537" height="771" alt="image" src="https://github.com/user-attachments/assets/2b186c11-f2b6-44c3-b733-c506786d37c9" />
+  <img width="537" height="771" alt="image" src="https://github.com/user-attachments/assets/2b186c11-f2b6-44c3-b733-c506786d37c9" />
 - 데이터 전체를 k개 묶음으로 나누고, k번째 묶음만을 테스트에 사용할때 나머지는 모델학습에 사용하면 된다.
 
